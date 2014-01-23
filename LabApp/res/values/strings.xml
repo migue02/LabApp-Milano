@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LabApp</string>
+    <string name="menu_settings">Settings</string>
+    <string name="process">Process</string>
+    <string name="regulator">Regulator</string>
+    <string name="pi">PI</string>
+    <string name="cancel">Cancel</string>
+    <string name="savechanges">Save Changes</string>
+    <string name="ts">Ts</string>
+    <string name="umax">U max</string>
+    <string name="umin">U min</string>
+    <string name="manual">Manual</string>
+    <string name="pid">PID</string>
+    <string name="labeltrue">True</string>
+    <string name="labelfalse">False</string>
+    <string name="typeRegulator">Choose the type of regulator</string>
+    <string name="typeProcess">Choose the type of process</string>
+    <string name="fop">FOP</string>
+    <string name="fopdt">FOPDT</string>
+    <string name="sop">SOP</string>
+    <string name="title_activity_regulator">RegulatorActivity</string>
+    <string name="title_activity_process">ProcessActivity</string>
+    <string name="title_activity_rparameters">RParametersActivity</string>
+    <string name="title_activity_pparameters">PParametersActivity</string>
+    <string name="title_activity_dialog_ip">DialogIPActivity</string>
+    <string name="localhost">127.0.0.1</string>
+    <string name="introduceIP">Introduce IP Server</string>
+    <string name="component">Select the component you want to use</string>
+    <string name="sp">SP = </string>
+    <string name="k">K = </string>
+    <string name="Ti">Ti = </string>
+    <string name="Td">Td = </string>
+    <string name="N">N = </string>
+    <string name="parameters">PARAMETERS</string>
+    <string name="u">u = </string>
+    <string name="y">y = </string>
+    <string name="mu">mu = </string>
+    <string name="t">T = </string>
+    <string name="d">D = </string>
+    <string name="t1">T1 = </string>
+    <string name="t2">T2 = </string>
+    <string name="updatesp">Update SP </string>
+    <string name="AdvanceOptions">Advance Options </string>
+    <string name="formula">P(s) = mu/(1+s*T) </string>
+    <string name="updateu">Update u </string>
+    <string name="StartControl">Start Control</string>
+    <string name="StartSimulation">Start Simulation</string>
+    <string name="UpdateParameters">Update Parameters</string>
+    <string name="title_activity_pi_parameters">PiParameters</string>
+    <string name="title_activity_fop_parameters">FopParameters</string>
+    <string name="title_activity_fopdt_parameters">FopdtParameters</string>
+    <string name="title_activity_sop_parameteres">SopParameteres</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_pop_up_advance_options_regulator">PopUpAdvanceOptionsRegulator</string>
+    <string name="title_activity_pop_up_advance_options_process">PopUpAdvanceOptionsProcess</string>
+    <string name="def0.1">0.1</string>
+    <string name="def1">1.0</string>
+    <string name="def0">0</string>
+    <string name="def0.0">0.0</string>
+    <string name="def10">10</string>
+    <string name="defMinus100">-100.0</string>
+    <string name="def100">100.0</string>
+    <string name="StopSimulation">Stop Simulation</string>
+    <string name="StopControl">Stop Control</string>
+    <string name="DoaRequest">Do a Request</string>
+    <string name="ShowGraphic">Show Graphic</string>
+    <string name="title_activity_graphics">Graphics</string>
+    <string name="action_settings">Settings</string>
+    <string name="graphics">Graphics of U value and Y value</string>
+    <string name="buttonReturn">Return</string>
+
+</resources>

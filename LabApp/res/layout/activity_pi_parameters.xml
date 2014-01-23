@@ -1,0 +1,213 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+	        <LinearLayout
+	            android:id="@+id/layout_PI"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_margin="10dp"
+	            android:orientation="vertical" >
+
+	            <Button
+	                android:id="@+id/buttonShowGraphic_PI"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:text="@string/ShowGraphic" />
+
+	            <LinearLayout
+	                android:layout_width="match_parent"
+	                android:layout_height="match_parent"
+	                android:orientation="horizontal" >
+
+	                <LinearLayout
+	                    android:layout_width="wrap_content"
+	                    android:layout_height="wrap_content"
+	                    android:orientation="vertical" >
+
+	                    <TextView
+	                        android:id="@+id/labelSP"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:minHeight="50dp"
+	                        android:text="@string/sp"
+	                        android:textAppearance="?android:attr/textAppearanceLarge"
+	                        android:textStyle="bold" />
+
+	                    <LinearLayout
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:layout_margin="20dp"
+	                        android:orientation="vertical" >
+
+	                        <TextView
+	                            android:id="@+id/labelu"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="37dp"
+	                            android:minHeight="50dp"
+	                            android:text="@string/u"
+	                            android:textAppearance="?android:attr/textAppearanceLarge"
+	                            android:textStyle="bold" />
+
+	                        <TextView
+	                            android:id="@+id/labely"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:minHeight="50dp"
+	                            android:text="@string/y"
+	                            android:textAppearance="?android:attr/textAppearanceLarge"
+	                            android:textStyle="bold" />
+	                    </LinearLayout>
+
+	                    <TextView
+	                        android:id="@+id/PI"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:layout_gravity="right"
+	                        android:paddingLeft="10dp"
+	                        android:text="@string/pi"
+	                        android:textAppearance="?android:attr/textAppearanceLarge"
+	                        android:textStyle="bold" />
+
+	                    <TextView
+	                        android:id="@+id/labelK"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:minHeight="50dp"
+	                        android:paddingTop="10dp"
+	                        android:text="@string/k"
+	                        android:textAppearance="?android:attr/textAppearanceLarge"
+	                        android:textStyle="bold" />
+
+	                    <TextView
+	                        android:id="@+id/labelTi"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:minHeight="50dp"
+	                        android:paddingTop="15dp"
+	                        android:text="@string/Ti"
+	                        android:textAppearance="?android:attr/textAppearanceLarge"
+	                        android:textStyle="bold" />
+	                    
+	                </LinearLayout>
+
+	                <LinearLayout
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:orientation="vertical" >
+
+	                    <LinearLayout
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content" >
+
+	                        <EditText
+	                            android:id="@+id/editTextSP_PI"
+	                            android:layout_width="92dp"
+	                            android:layout_height="wrap_content"
+	                            android:layout_weight="1"
+	                            android:ems="10"
+	                            android:inputType="numberDecimal"
+	                            android:minHeight="50dp" 
+	                            android:textColorHint="#0a198b"
+            					android:hint="@string/def0.0">
+
+	                        </EditText>
+	                        
+	                        <Button
+	                            android:id="@+id/buttonUpdateSP_PI"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:layout_weight="1"
+	                            android:minHeight="50dp"
+	                            android:text="@string/updatesp" />
+
+	                    </LinearLayout>
+
+	                    <LinearLayout
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content"
+	                        android:layout_margin="20dp"
+	                        android:orientation="vertical" >
+
+	                      <ProgressBar
+	                          android:id="@+id/progressBarU_PI"
+	                          style="?android:attr/progressBarStyleHorizontal"
+	                          android:layout_width="fill_parent"
+	                          android:layout_height="wrap_content"
+	                          android:max="100"
+	                          android:progress="50"
+	                           />
+	                        
+ 						  <ProgressBar
+ 						      android:id="@+id/progressBarY_PI"
+ 						      style="?android:attr/progressBarStyleHorizontal"
+ 						      android:layout_width="fill_parent"
+ 						      android:layout_height="wrap_content"
+ 						      android:paddingTop="25dp"
+ 						      android:progress="50" />
+	                     
+	                    </LinearLayout>
+
+	                    <TextView
+	                        android:id="@+id/textView2"
+	                        android:layout_width="wrap_content"
+	                        android:layout_height="wrap_content"
+	                        android:paddingLeft="10dp"
+	                        android:paddingTop="29dp"
+	                        android:text="@string/parameters"
+	                        android:textAppearance="?android:attr/textAppearanceLarge"
+	                        android:textStyle="bold" />
+
+	                    <EditText
+	                        android:id="@+id/editTextK_PI"
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content"
+	                        android:ems="10"
+	                        android:inputType="numberDecimal"
+	                        android:minHeight="50dp" 
+	                        android:textColorHint="#0a198b"
+            				android:hint="@string/def1" />
+
+	                    <EditText
+	                        android:id="@+id/editTextTi_PI"
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content"
+	                        android:ems="10"
+	                        android:inputType="numberDecimal"
+	                        android:minHeight="50dp" 
+	                        android:textColorHint="#0a198b"
+           					android:hint="@string/def1"/>
+
+
+	                </LinearLayout>
+
+	            </LinearLayout>
+
+	            <Button
+	                android:id="@+id/buttonAdvanceOptions_PI"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:text="@string/AdvanceOptions" />
+	            
+	            <Button
+	                android:id="@+id/buttonUpdateParameters_PI"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+	                android:text="@string/UpdateParameters" />
+
+	            <Button
+	                android:id="@+id/buttonStartControl_PI"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+               		android:text="@string/StartControl" />
+	            
+	            <Button
+	                android:id="@+id/buttonStopControl_PI"
+	                android:layout_width="match_parent"
+	                android:layout_height="wrap_content"
+               		android:text="@string/StopControl" />
+</LinearLayout>
+
+</ScrollView>
