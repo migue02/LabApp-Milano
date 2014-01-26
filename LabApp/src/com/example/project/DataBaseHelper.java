@@ -17,6 +17,7 @@ public class DataBaseHelper extends SQLiteOpenHelper {
 	private static final String DB_NAME = "database.db";
 	protected static String TablePI = "pi";
 	protected static String TablePID = "pid";
+	//Prueba commit
 
 	
 	private String sqlCreatePI = "create table pi (_id integer primary key autoincrement, u double, y double, server text)";
